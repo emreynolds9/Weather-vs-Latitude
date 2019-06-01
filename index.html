@@ -13,7 +13,7 @@
     </head>
 <body>
   <!-- NAVIGATION BAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #303030">
         <a class="navbar-brand" href="#">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="max-temp">Latitude vs Maximum Temperature</a>
+                <a class="dropdown-item" href="max-temp.html">Latitude vs Maximum Temperature</a>
                 <a class="dropdown-item" href="humidity">Latitude vs Humidity</a>
                 <a class="dropdown-item" href="wind-speed">Latitude vs Wind Speed</a>
                 <a class="dropdown-item" href="cloudiness">Latitude vs Cloudiness</a>
@@ -41,17 +41,43 @@
         </div>
       </nav>
 <!--These col-md-3 columns go half wide when on a small screen and full on extra small-->
+<div class="container">
 <div class="row">
   <!--Normally these medium columns go full wide on small screen sizes-->
-    <div class="col-md-7">
+    <div class="col-lg-7 col-md-7 col-sm-12">
       <div class="box purple">
-        <h1>Summary: Latitude vs X</h1></div>
-        <p1></p1>
+        <h1>Summary: Latitude vs X</h1>
+        <hr>
+        <img src="Assets\MaxTemp.png" style="float: left" class="responsive-img">
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
+        on over 500 cities.</p>
+        <p>After assembling the dataset, we used Matplotlib to plot various 
+            After assembling the dataset, we used Matplotlib to plot various
+            After assembling the dataset, we used Matplotlib to plot various
+            After assembling the dataset, we used Matplotlib to plot various.
+            After assembling the dataset, we used Matplotlib to plot various
+            After assembling the dataset, we used Matplotlib to plot various.  </p>
+      </div>      
     </div>
-    <div class="col-md-5">
+    <div class="col-lg-5 col-md-5 col-sm-12">
       <div class="box purple">
-        <h1>Visualizations</h1></div>
+        <h1>Visualizations</h1>
+        <hr>
+        <table style="width: 100%">
+            <tr>
+              <td><img src="Assets\MaxTemp.png" style="float: left" class="responsive-img-sm"></td>
+              <td><img src="Assets\Humidity.png" style="float: left" class="responsive-img-sm"></td> 
+            </tr>
+            <tr>
+              <td><img src="Assets\WindSpeed.png" style="float: left" class="responsive-img-sm"></td>
+              <td><img src="Assets\Cloudiness.png" style="float: left" class="responsive-img-sm"></td>
+            </tr>
+          </table>
+      </div>
     </div>
+  </div>
+</div>
 </div>
 </body>
 </html>
