@@ -1,0 +1,19 @@
+.box {
+  min-height: 50px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.skyblue {
+  background: deepskyblue;
+}
+
+.purple {
+  background: lavender;
+}
+
+.red {
+  background: indianred;
+}
