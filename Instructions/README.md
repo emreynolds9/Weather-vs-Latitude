@@ -1,1 +1,1 @@
-# Latitude
+permalink: /index.html
