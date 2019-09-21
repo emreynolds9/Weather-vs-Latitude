@@ -14,4 +14,5 @@
 
 #### The plotting script uses Matplotlib to create scatter plots comparing each of these weather indicators against the latitude of each coordinate. 
 
+![Latitude vs Maximum Temperature](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Latitude vs Maximum Temperature")
 
