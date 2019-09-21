@@ -24,11 +24,22 @@
 }
 
 .img-fluid{
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
   padding: 15px;
 }
 
-.img-border { 
+.img-border {
   border:3px solid #303030;
+}
+
+.item
+{
+        padding-top:1px;
+}
+
+.item:hover {
+    background: #e1e1e1;
+    border: 5px solid #000000;
+    padding-top:0;
 }
