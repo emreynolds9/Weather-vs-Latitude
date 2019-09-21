@@ -16,6 +16,8 @@ The plotting script uses Matplotlib to create scatter plots comparing each of th
 
 ![Latitude vs Maximum Temperature](Assets/MaxTemp.png "Latitude vs Maximum Temperature" =100x100)
 
+<img src="http://www.emilyreynolds.me/Weather-vs-Latitude/Assets/MaxTemp.png" width="100">
+
 ![Latitude vs Cloudiness](Assets/Cloudiness.png "Latitude vs Cloudiness" | width=100)
 
 ![Latitude vs Wind Speed](Assets/WindSpeed.png "Latitude vs Wind Speed")
