@@ -14,13 +14,7 @@ The data set was created using the [OpenWeather API](https://openweathermap.org/
 
 The plotting script uses Matplotlib to create scatter plots comparing each of these weather indicators against the latitude of each coordinate.
 
-![Latitude vs Maximum Temperature](Assets/MaxTemp.png "Latitude vs Maximum Temperature" =100x100)
-
-<img src="http://www.emilyreynolds.me/Weather-vs-Latitude/Assets/MaxTemp.png" width="100">
-
-![Latitude vs Cloudiness](Assets/Cloudiness.png "Latitude vs Cloudiness" | width=100)
-
-![Latitude vs Wind Speed](Assets/WindSpeed.png "Latitude vs Wind Speed")
-
-![Latitude vs Humidity](Assets/Humidity.png "Latitude vs Humidity")
-
+<img src="Assets/MaxTemp.png" width="200">
+<img src="Assets/Cloudiness.png" width="200">
+<img src="Assets/WindSpeed.png" width="200">
+<img src="Assets/Humidity.png" width="200">
