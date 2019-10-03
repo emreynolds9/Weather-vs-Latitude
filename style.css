@@ -1,13 +1,39 @@
+body {
+  font-family: 'Zilla Slab', monospace;
+  font-size: 20px;
+}
+
+h1,h2,h3 {
+  font-family: 'Zilla Slab', monospace;
+}
+
+.btn {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  outline: 1px solid #212529;
+  border: 3px solid transparent;
+  transition: all 0.2s ease-in-out;
+  margin-left: 5px
+}
+
+.btn:hover {
+  outline: 0px solid transparent;
+  border: 3px solid white;
+  transition: all 0.2s ease-in-out;
+  margin-left: 5px
+}
 .box {
   min-height: 50px;
   padding: 20px;
   margin-top: 20px;
   color: #303030;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Zilla Slab', monospace;
+  font-size: 20px;
 }
 
 .purple {
-  background: lavender;
+  background: #e1e1e1;
 }
 
 .responsive-img {
@@ -24,7 +50,7 @@
 }
 
 .img-fluid{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   padding: 15px;
 }
