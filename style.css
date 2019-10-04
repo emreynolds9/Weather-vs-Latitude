@@ -25,15 +25,19 @@ h1,h2,h3 {
 }
 .box {
   min-height: 50px;
-  padding: 20px;
+  padding: 50px;
   margin-top: 20px;
   color: #303030;
-  font-family: 'Zilla Slab', monospace;
-  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
 }
 
 .purple {
   background: #e1e1e1;
+}
+
+.table {
+  font-size: 15px;
 }
 
 .responsive-img {
@@ -50,9 +54,10 @@ h1,h2,h3 {
 }
 
 .img-fluid{
-  max-width: 50%;
-  height: auto;
-  padding: 15px;
+  /* max-width: 50%; */
+  height: 250px;
+  float:left;
+  padding-right: 15px;
 }
 
 .img-border {
@@ -68,4 +73,11 @@ h1,h2,h3 {
     background: #e1e1e1;
     border: 5px solid #000000;
     padding-top:0;
+}
+
+.footer {
+  padding-top:50px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: grey
 }
